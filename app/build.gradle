@@ -12,7 +12,6 @@ android {
         targetSdk 31
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -22,6 +21,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -30,7 +30,7 @@ android {
 
 dependencies {
     implementation 'com.alibaba.fastjson2:fastjson2:2.0.5.android-SNAPSHOT'
-    implementation 'com.alibaba.fastjson2:fastjson2-kotlin:2.0.5-SNAPSHOT'
+    implementation 'com.alibaba.fastjson2:fastjson2-kotlin:2.0.5.android-SNAPSHOT'
 
     implementation 'androidx.appcompat:appcompat:1.4.0'
     testImplementation 'junit:junit:5.8.2'
